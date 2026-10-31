@@ -6,6 +6,10 @@ const commands = [
     name: 'ping',
     description: '得知機器人的延遲資訊',
   },
+  {
+    name: 'bot-info',
+    description: '得知機器人的資訊'
+  },
 ];
 
 const rest = new REST({ version: '10' }).setToken( process.env.DISCORD_TOKEN );
