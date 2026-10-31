@@ -30,7 +30,7 @@ if (interaction.commandName === 'bot-info') {
       `機器人ＩＤ：${client.user.id}\n`+
       `機器人製作者：<@1034440947276206140>\n`+
       `機器人建立時間：<t:${~~(client.user.createdTimestamp/1000)}:R>\n`+
-      `[機器人邀請連結(點我)](https://discord.com/oauth2/authorize?client_id=1561362437507125388&permissions=8&integration_type=0&scope=bot)\n`+
+      `機器人邀請連結:[(點我)](https://discord.com/oauth2/authorize?client_id=1561362437507125388&permissions=8&integration_type=0&scope=bot)\n`+
       `機器人版本：ver 1.0\n`+
       `機器人所在伺服器數量：${client.guilds.cache.size}\n`+
       `機器人上線時間：${msToHMS(client.uptime)}`
