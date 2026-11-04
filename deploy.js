@@ -8,8 +8,20 @@ const commands = [
   },
   {
     name: 'bot-info',
-    description: '取得機器人基本資訊'
+    description: '指令清單'
   },
+  {
+    name: 'create-album',
+    description: '新增一個相簿',
+    options: [
+      {
+        type: 3,  //3 = 文字選項
+        name: 'name',
+        description: '相簿名稱',
+        required: true,
+      }
+    ]
+  }
 ];
 
 const rest = new REST({ version: '10' }).setToken( process.env.DISCORD_TOKEN );
